@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Market
+        link(rel="stylesheet", href="fonts/pe-icon-7-stroke.css")
+        link(rel="stylesheet", href="css/animate.css")
+        link(rel="stylesheet", href="css/main.css")
+    body
+        .nav
+            .left-menu
+                h1
+                 a(href="") market
+            .right-menu
+                button.nav-item.btn
+                    span.pe-7s-user
+                button.nav-item.btn#cart-btn
+                    span.cart-badge 3
+                    span.pe-7s-cart
+                label(for="search").search.nav-item
+                    input(type="text", placeholder="Search...")#search
+                    span.icon.pe-7s-search
+                    .clearfix
+                p.nav-item +998-99-999-99-99
+            .cart-items
+                .left-menu
+                    button.nav-item.btn
+                        span.pe-7s-angle-right
+                .right-menu
+                    button.nav-item.btn
+                        span.pe-7s-user
+                .clearfix
+                .products
+                    .product
+                        .image
+                            img(src="img/products/product-1.jpg", alt="")
+                        .about
+                            h4
+                                a(href="") Peaches
+                            p
+                                span.price 123,000 so'm
+                                span.available
+                                    span(style="float:left;margin:3px 5px 5px 10px").pe-7s-check
+                                    span Available
+                .total
+                    h3 Total:
+                        span.price 246.000 so'm
+
+    script(src="js/jquery.js")
+    script(src="js/wow.js")
+    script(src="js/main.js")
